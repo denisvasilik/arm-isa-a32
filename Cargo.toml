@@ -1,0 +1,23 @@
+[package]
+name = "arm-isa-a32"
+version = "0.1.0"
+authors = ["Denis Vasilìk <rust@denisvasilik.com>"]
+description = "API for Arm Base ISA A32"
+homepage = "https://github.com/denisvasilik/arm-isa-a32"
+repository = "https://github.com/denisvasilik/arm-isa-a32"
+readme = "README.md"
+keywords = ["arm", "a32"]
+categories = ["embedded", "no-std"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+exclude = [
+    ".gitignore",
+    "Makefile",
+]
+
+[dependencies]
+register = "0.3.2"
+bare-metal = "0.2.0"
+
+[features]
+inline-asm = []
