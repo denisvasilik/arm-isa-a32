@@ -6,7 +6,7 @@
 //!
 
 #![no_std]
-#![cfg_attr(feature = "inline-asm", feature(asm))]
+#![cfg_attr(feature = "inline-asm", feature(llvm_asm))]
 #![feature(core_intrinsics)]
 
 pub mod instructions;
